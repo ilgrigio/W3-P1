@@ -87,11 +87,11 @@ ion-icon {
   display: flex;
   gap: 20px;
 }
-.info__inline {
+/* .info__inline {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-}
+} */
 .info__inline p {
   margin: 0;
 }
