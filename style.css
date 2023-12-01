@@ -3,6 +3,12 @@
   src: url(./assets/feather.ttf);
 }
 
+.jumbotron img {
+  width: 100%;
+  min-width: 200px;
+  object-fit: cover;
+}
+
 .user {
   width: 2.5em;
   border-radius: 50%;
@@ -39,19 +45,26 @@ span.rounded-circle {
   position: relative;
   margin-inline: 8px;
 }
-
+/* Header */
 #instructor {
+  font-size: medium;
+  font-weight: 500;
+  padding: 10px !important;
   background-color: rgb(255, 252, 252);
-  border-color: rgb(255, 252, 252);
+  /* border-color: rgb(255, 252, 252); */
   color: #000;
 }
 
 #courses {
+  font-size: medium;
+  font-weight: 500;
+  padding: 10px !important;
   background-color: #00cc66;
   border: none;
 }
 .jumbotron {
   background-color: #7c59fe;
+  color: #fff;
 }
 
 .icon {
@@ -62,46 +75,26 @@ span.rounded-circle {
   padding: 10px;
 }
 
-/*  <!-- Jumbotron -->
-    <div class="jumbotron">
-      <!-- Row&Col -->
-      <div class="row">
-        <!-- <div class="p-5 mb-4 bg-body-tertiary rounded-3"> -->
-        <div class="col-sm-6">
-          <div class="container-fluid py-5">
-            <h1 class="display-5 fw-bold">Welcome Web Students!</h1>
-            <p class="col-md-8 fs-4">
-              Hand-picked Instructor and expertly crafted courses, designed for
-              the modern students and entrepreneur.
-            </p>
-            <button id="courses" class="btn btn-primary btn-lg" type="button">
-              Browse Courses
-            </button>
-            <button
-              id="instructor"
-              class="btn btn-primary btn-lg"
-              type="button"
-            >
-              Are You Instructore?
-            </button>
-            <div class="col-3">
-              <img src="./assets/hero-img.png" alt="" />
-            </div>
-          </div>
-        </div>
-        <!-- <div class="col">
-          <img src="./assets/hero-img.png" alt="" />
-        </div> -->
-      </div>
-    </div>
-    <div class="container text-center">
-      <div class="row">
-        <div class="col">
-          <div class="icon">
-            <ion-icon name="videocam-outline"></ion-icon>Column
-          </div>
-        </div>
-        <div class="col">Column</div>
-        <div class="col">Column</div>
-      </div>
-    </div> */
+ion-icon {
+  background-color: rgb(255, 224, 166);
+  padding: 15px;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  color: brown;
+}
+.col-4 {
+  display: flex;
+  gap: 20px;
+}
+.info__inline {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.info__inline p {
+  margin: 0;
+}
+span {
+  font-weight: bold;
+}
