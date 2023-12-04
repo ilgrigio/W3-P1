@@ -75,7 +75,7 @@ span.rounded-circle {
   padding: 10px;
 }
 
-ion-icon {
+.container .row.mx-5 ion-icon {
   background-color: rgb(255, 224, 166);
   padding: 15px;
   border-radius: 50%;
@@ -95,6 +95,84 @@ ion-icon {
 .info__inline p {
   margin: 0;
 }
-span {
+.info__inline span {
   font-weight: bold;
 }
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #000;
+  padding-inline: 10px;
+  height: 50px;
+  width: 50px;
+  top: 180px;
+}
+
+.carousel-control-prev {
+  left: -70px;
+  border-radius: 50px 5px 5px 50px;
+}
+.carousel-control-next {
+  right: -70px;
+  border-radius: 5px 50px 50px 5px;
+}
+.bi-bar-chart {
+  color: #7c59fe;
+}
+.star__yellow {
+  color: rgb(255, 191, 0);
+}
+.star__yellow .bi-star {
+  font-size: small;
+}
+.card-text span {
+  color: #6c757d;
+}
+span.overline {
+  text-decoration: line-through;
+}
+.price {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+/* .carousel .slide {
+  padding: 10px;
+} */
+h6 {
+  margin: 0;
+  font-weight: bold;
+}
+
+.card-footer ion-icon {
+  width: 1em;
+  height: 1em;
+}
+
+.user__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user__footer ion-icon {
+  visibility: visible;
+  cursor: pointer;
+}
+.hidden {
+  visibility: hidden !important;
+}
+.visible {
+  visibility: visible !important;
+}
+/* /* .user__footer ion-icon:hover {
+  visibility: hidden;
+  cursor: pointer;
+} */
+
+.user__footer .filled {
+  visibility: hidden;
+  cursor: pointer;
+}
+
+/* .user__footer .filled:hover {
+  display: block;
+} */
